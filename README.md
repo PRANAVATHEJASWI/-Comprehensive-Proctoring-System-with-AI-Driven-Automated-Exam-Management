@@ -59,7 +59,7 @@ This project addresses the increasing need for secure and scalable online examin
 | AI/ML Models     | Gemini API, Whisper, YOLOv11, MediaPipe    |
 | Database         | Firebase, MySQL                            |
 | Dev Tools        | Visual Studio Code, Git, Google Colab      |
-| Hosting/Infra    | AWS / GCP                                  |
+| Hosting/Infra    | Hugging Face Spaces                        |
 
 ---
 
