@@ -4,7 +4,7 @@ An AI-powered online examination system that enhances the integrity, efficiency,
 
 ## 🌐 Website Preview
 
-![Website](Website.gif)
+![Website](website.gif)
 
 
 ## 👨‍💻 Team Members
