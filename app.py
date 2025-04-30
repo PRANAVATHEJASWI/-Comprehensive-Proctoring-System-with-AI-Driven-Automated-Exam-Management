@@ -508,14 +508,7 @@ def detect_face_movement(frame, username, test_code):
             p1 = (int(nose_2d[0]), int(nose_2d[1]))
             p2 = (int(nose_2d[0] + y_angle * 10), int(nose_2d[1] - x_angle * 10))
             
-            # cv2.line(img, p1, p2, (255, 0, 0), 3)
             
-            # Displaying the text and angles
-            # cv2.putText(img, text, (20, 50), cv2.FONT_HERSHEY_SIMPLEX, 2, (0, 255, 0), 2)
-            # cv2.putText(img, "x: " + str(np.round(x_angle, 2)), (500, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-            # cv2.putText(img, "y: " + str(np.round(y_angle, 2)), (500, 100), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-            # cv2.putText(img, "z: " + str(np.round(z_angle, 2)), (500, 150), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-        
         # Calculate the frame-per-second (FPS) value
         end = time.time()
         totalTime = end - start
